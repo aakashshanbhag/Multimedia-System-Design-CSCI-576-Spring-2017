@@ -1,0 +1,28 @@
+﻿Build started 3/13/2017 1:00:07 AM.
+     1>Project "D:\CSCI576\prob1\prob1\prob1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\prob1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt prob1.cpp
+         prob1.cpp
+     1>d:\csci576\prob1\prob1\prob1.cpp(48): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\csci576\prob1\prob1\prob1.cpp(51): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\csci576\prob1\prob1\prob1.cpp(60): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\csci576\prob1\prob1\prob1.cpp(63): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\csci576\prob1\prob1\prob1.cpp(198): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\csci576\prob1\prob1\prob1.cpp(199): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CSCI576\prob1\Debug\prob1.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\prob1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\CSCI576\prob1\Debug\prob1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CSCI576\prob1\Debug\prob1.lib" /MACHINE:X86 Debug\prob1.obj
+         Debug\stdafx.obj
+     1>prob1.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         prob1.vcxproj -> D:\CSCI576\prob1\Debug\prob1.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\CSCI576\prob1\Debug\prob1.exe;#1" /manifest Debug\prob1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\prob1.unsuccessfulbuild".
+         Touching "Debug\prob1.lastbuildstate".
+     1>Done Building Project "D:\CSCI576\prob1\prob1\prob1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.57
